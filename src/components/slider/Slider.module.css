@@ -1,0 +1,38 @@
+.productSection {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-left:-280px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.productImage {
+  width: 300px;
+  height:200px;
+}
+
+.productInfo {
+  padding: 8px;
+  text-align: center;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,37 @@
+.header {
+  justify-content: center;
+  align-items: center;
+  margin:0px 20px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+.searchBox {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 8px;
+  font-size: 12px;
+  background-color: transparent;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.searchContainer img:first-child {
+  margin-left: 0;
+}
+
+.searchContainer img:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,26 @@
+.app {
+  display: flex; 
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #F5F5F5;
+  overflow: hidden;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.leftPanel{
+ width:15vw;
+}
+
+.mainPanel{
+  width:50vw;
+  overflow-y: scroll;
+  overflow-x:hidden;
+
+}
+
+.rightPanel{
+  width:20vw;
+
+}

@@ -1,0 +1,77 @@
+.sidebar {
+  background-color: #F5F5F5;
+  height:100vh;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.logo{
+padding:15px;
+margin-bottom:0.8rem;
+text-align: left;
+font: normal normal normal 25px Mongolian Baiti;
+color: #101010;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+flex:1;
+}
+
+.nav{
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 10px;
+padding: 0px 30px;
+color:#9A9A9E;
+height:80vh;
+flex:1;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.list li{
+  display: flex;
+  gap:10px;
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+}
+
+.active{
+color:black;
+}
+
+.list img{
+  width:12px;
+}
+
+.logout{
+  color:#88C2BB;
+  background-color:transparent;
+  border:none;
+  width:max-content;
+  cursor: pointer;
+}
+
+.footer{
+  color:#8D8D8D;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1.9rem;
+  width: 4px; 
+  height: 100%;
+  background-color: #88C2BB;
+  border-radius: 4px; 
+}
