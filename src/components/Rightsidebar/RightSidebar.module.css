@@ -39,7 +39,7 @@ flex:1;
 
 .background {
   width: 100%;
-  height: 110px;
+  height: 95px;
   object-fit: cover;
 }
 
@@ -81,7 +81,7 @@ flex:1;
   height: 40px;
   margin: 3rem 0rem 0rem 1rem;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 0.9px solid white;
 }
 
 .statusDot {
@@ -98,7 +98,7 @@ flex:1;
 
 .textInfo {
   color: white;
-    margin: 3rem 0rem 0rem 1rem;
+  margin: 3rem 0rem 0rem 1rem;
 }
 
 .name {
