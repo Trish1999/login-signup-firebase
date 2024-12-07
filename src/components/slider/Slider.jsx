@@ -35,6 +35,7 @@ const Slider = () => {
   ];
 
   return (
+    <div className={styles.product}>
     <div className={styles.productSection}>
       {products.map((product) => (
         <div className={styles.card} key={product.id}>
@@ -52,7 +53,9 @@ const Slider = () => {
             </div>
           </div>
         </div>
+        
       ))}
+    </div>
     </div>
   );
 };

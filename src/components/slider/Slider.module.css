@@ -1,17 +1,22 @@
 .productSection {
+  width:100%;
   display: flex;
+  flex-direction: row;
   gap: 20px;
-  padding: 20px;
-  margin-left:-280px;
+  margin-left:-210px;
 }
-
+.product{
+  overflow: hidden;
+  margin:0 20px 0 20px;
+}
 .card {
   border-radius: 10px;
 }
 
 .productImage {
-  width: 300px;
-  height:200px;
+  width: 245px;
+  height:150px;
+  border-radius: 10px;
 }
 
 .productInfo {
@@ -20,7 +25,7 @@
 }
 
 .title {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
 }
 
