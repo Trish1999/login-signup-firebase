@@ -16,7 +16,7 @@
 
 .cardImage {
   flex: 1;
-  background-image: url('art.webp');
+  background-image: url('/art.webp');
   background-size: cover;
   background-position: center;
 }
